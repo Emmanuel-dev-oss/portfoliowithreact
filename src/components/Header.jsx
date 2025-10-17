@@ -77,11 +77,11 @@ const Header = () => {
                 {/* Additional Info (optional) */}
                 <div className="side-nav-footer">
                     <div className="contact-info">
-                        <p>Email: hello@example.com</p>
-                        <p>Phone: +1 234 567 890</p>
+                        <p>09112337655</p>
+                        <p>adejolamichtutors2@gmail.com</p>
                     </div>
                     <div className="social-links">
-                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="https://www.linkedin.com/in/michael-adejola-650aa5271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn">LinkedIn</a>
                         <a href="#" aria-label="GitHub">GitHub</a>
                         <a href="#" aria-label="Twitter">Twitter</a>
                     </div>
