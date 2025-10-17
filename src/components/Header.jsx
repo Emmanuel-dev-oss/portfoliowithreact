@@ -82,7 +82,7 @@ const Header = () => {
                     </div>
                     <div className="social-links">
                         <a href="https://www.linkedin.com/in/michael-adejola-650aa5271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn">LinkedIn</a>
-                        <a href="#" aria-label="GitHub">GitHub</a>
+                        <a href="https://github.com/Ademich02" aria-label="GitHub">GitHub</a>
                         <a href="#" aria-label="Twitter">Twitter</a>
                     </div>
                 </div>
