@@ -1589,7 +1589,7 @@ nav a:not(:last-child):hover::after {
   }
 
   .hero-main-icon {
-    font-size: 18rem;
+    font-size: 13rem;
     margin-bottom: 4rem;
   }
 
@@ -1713,8 +1713,12 @@ nav a:not(:last-child):hover::after {
 
   /* Services Section */
   .services {
-    padding: 0rem 1rem;
+    padding: 0rem 0rem;
     margin: 100px auto;
+  }
+
+  .services-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
   }
 
   .services .section-title {

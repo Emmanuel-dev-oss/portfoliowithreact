@@ -15,7 +15,7 @@ const Hero = () => {
         <div className="hero-content">
           <AnimatedElement className="hero-text" animation='fadeInUp' delay={0.2}>
             <h4>I'm</h4>
-            <h1 className='name'>Adejola Michtutors</h1>
+            <h1 className='name'>Adejola Michael</h1>
             <h1> A WEB DEVELOPER</h1>
             <h1>ELECTRICAL ENGINEER</h1> 
             <div className="full-text"><h1>3D PRODUCT DESIGNER</h1><div className="full-stop"></div></div>
