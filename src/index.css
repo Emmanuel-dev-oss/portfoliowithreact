@@ -898,25 +898,25 @@ nav a:not(:last-child):hover::after {
 
 .footer::after {
   content: "";
-  width: 290px;
-  height: 290px;
-  left: -150px;
+  width: 100px;
+  height: 100px;
+  left: 0;
   background-color:  #00458f36;
   border-radius: 50%;
   position: absolute;
-  transform: translateY(-56rem);
+  transform: translateY(-51rem);
   backdrop-filter: blur(5px);
 }
 
 .footer::before {
   content: "";
-  width: 290px;
-  height: 290px;
-  right: -150px;
+  width: 100px;
+  height: 100px;
+  right: 0;
   background-color:  #00458f36;
   border-radius: 50%;
   position: absolute;
-  transform: translateY(-8rem);
+  transform: translateY(-2.5rem);
   backdrop-filter: blur(5px);
 }
 
@@ -1298,19 +1298,6 @@ nav a:not(:last-child):hover::after {
     margin-top: 100px;
   }
 
-  .footer::after {
-    content: "";
-    width: 230px;
-    height: 230px;
-    transform: translateY(-55rem);
-  }
-
-  .footer::before {
-    width: 230px;
-    height: 230px;
-    transform: translateY(-8rem);
-  }
-
   .footer {
     padding: 0rem 2rem;
   }
@@ -1516,16 +1503,9 @@ nav a:not(:last-child):hover::after {
   }
 
   /* footer styling starts here */
-  .footer::after {
-    width: 240px;
-    height: 240px;
-    transform: translateY(-85rem);
-  }
 
-  .footer::before {
-    width: 240px;
-    height: 240px;
-    transform: translateY(-6rem);
+  .footer::after {
+    content: none;
   }
 
   .footer-top {
@@ -1753,18 +1733,6 @@ nav a:not(:last-child):hover::after {
   .footer {
     padding: 0rem 2rem;
     margin-top: 150px;
-  }
-
-  .footer::after {
-    width: 200px;
-    height: 200px;
-    transform: translateY(-84rem);
-  }
-
-  .footer::before {
-    width: 200px;
-    height: 200px;
-    transform: translateY(-5rem);
   }
 
   .contact-form {
