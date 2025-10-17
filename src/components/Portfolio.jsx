@@ -14,7 +14,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: "Dating Mobile App Design",
-      description: "Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry ...",
+      description: "A modern dating mobile application designed with user experience and engagement in mind. This app features advanced matching algorithms, real-time messaging, and a sleek, intuitive interface. Built with React Native and Firebase backend, it supports both iOS and Android platforms with native performance...",
       fullDescription: "A modern dating mobile application designed with user experience and engagement in mind. This app features advanced matching algorithms, real-time messaging, and a sleek, intuitive interface. Built with React Native and Firebase backend, it supports both iOS and Android platforms with native performance.",
       technologies: ["React Native", "Firebase", "Node.js", "MongoDB"],
       features: ["Real-time Chat", "Smart Matching", "Video Profiles", "Location-based Discovery"],
@@ -27,7 +27,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: "E Commerce Mobile App Design",
-      description: "Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry ...",
+      description: "A comprehensive fitness tracking desktop application that helps users monitor their workouts, nutrition, and progress. Includes workout planning, progress analytics, and integration with wearable devices...",
       fullDescription: "A comprehensive fitness tracking desktop application that helps users monitor their workouts, nutrition, and progress. Includes workout planning, progress analytics, and integration with wearable devices.",
       technologies: ["Electron", "React", "SQLite", "Chart.js"],
       features: ["Workout Tracking", "Progress Analytics", "Meal Planning", "Device Integration"],
@@ -39,7 +39,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: "Fitness Mobile App Design",
-      description: "Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry ...",
+      description: "A stunning portfolio website for fashion models featuring high-resolution galleries, booking system, and professional contact management. Designed with performance and visual appeal as top priorities...",
       image: desktopAppImg,
       fullDescription: "A stunning portfolio website for fashion models featuring high-resolution galleries, booking system, and professional contact management. Designed with performance and visual appeal as top priorities.",
       technologies: ["Vue.js", "Nuxt.js", "Cloudinary", "Netlify"],
@@ -51,7 +51,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: "Social Mobile App Design",
-      description: "Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry ...",
+      description: "A social media application focusing on community engagement and content sharing. Features include post creation, commenting, liking, real-time notifications, and user profiles...",
       fullDescription: "A social media application focusing on community engagement and content sharing. Features include post creation, commenting, liking, real-time notifications, and user profiles.",
       technologies: ["Flutter", "Firebase", "Dart", "Cloud Functions"],
       features: ["Post Creation", "Real-time Chat", "Notifications", "User Profiles"],
@@ -63,7 +63,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: "Business Management Desktop App",
-      description: "Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry ...",
+      description: "Enterprise-level business management software for small to medium businesses. Includes inventory management, customer relationship management, invoicing, and reporting features...",
       fullDescription: "Enterprise-level business management software for small to medium businesses. Includes inventory management, customer relationship management, invoicing, and reporting features.",
       image: desktopAppImg,
       category: "Desktop",
@@ -75,7 +75,7 @@ const Portfolio = () => {
     {
       id: 1,
       title: "Modelling Mobile App Design",
-      description: "Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry ...",
+      description: "A social media application focusing on community engagement and content sharing. Features include post creation, commenting, liking, real-time notifications, and user profiles...",
       fullDescription: "A social media application focusing on community engagement and content sharing. Features include post creation, commenting, liking, real-time notifications, and user profiles.",
       category: "Mobile App",
       technologies: ["Flutter", "Firebase", "Dart", "Cloud Functions"],
@@ -88,7 +88,7 @@ const Portfolio = () => {
     {
       id: 2,
       title: "Open Source Library",
-      description: "Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry, Lorem ipsum is simply dummy text of the printing and typesetting industry ...",
+      description: "A comprehensive open-source utility library for JavaScript developers. Includes commonly used functions, helpers, and components to accelerate web development projects...",
       fullDescription: "A comprehensive open-source utility library for JavaScript developers. Includes commonly used functions, helpers, and components to accelerate web development projects.",
       image: programmingImg,
       category: "Other Projects",

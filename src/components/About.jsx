@@ -1,5 +1,5 @@
 import React from 'react';
-import myImage from '../assets/myImage.png';
+import myImage from '../assets/myImage.jpg';
 import AnimatedElement from '../components/embeded/AnimatedSection'
 import AnimatedElements from '../components/embeded/3dAnimation'
 
@@ -19,16 +19,9 @@ const About = () => {
             <div className="about-text">
                 <AnimatedElement animation="fadeInLeft" delay={0.6} className="about-description">
                     <p>
-                        Lorem ipsum is simply dummy text of the printing and typesetting industry. 
-                        Lorem ipsum has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a galley of type and scrambled it to make a type 
-                        specimen book it has survived not only five centuries, but also the leap into 
-                        electronic typesetting, remaining essentially unchanged.
-
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Pariatur eos odio suscipit. Consequatur illum aliquam debitis! 
-                        Suscipit ipsam nostrum nisi culpa blanditiis eveniet minima ea 
-                        dolores, quisquam nihil ad optio.
+                       I am a versatile and solutions-oriented Website Developer with strong technical and creative abilities. I hold a degree in Electrical and Electronic Engineering from Federal University Oye-Ekiti, backed by over 5 years of experience in the electrical field*.
+                       As an educator, I have taught and mentored students for 6 years, with a passion for academic excellence. I am also the Founder and CEO of MICHTUTORS ACADEMY, established in 2019, dedicated to academic coaching and digital skills training.
+                       In addition, I am a 3D Modeler and Product Designer, with hands-on experience in creating interactive and high-quality visual designs.
                     </p>
                   </AnimatedElement>
                 <AnimatedElement animation="fadeInLeft" delay={0.6} className="about-actions">

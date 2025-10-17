@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCode, faMobile, faDesktop, faVideo } from '@fortawesome/free-solid-svg-icons';
+import { faCube, faMobile, faDesktop, faVideo } from '@fortawesome/free-solid-svg-icons';
 import AnimatedElement from './embeded/AnimatedSection';
 import AnimatedElements from './embeded/3dAnimation';
 
@@ -8,26 +8,26 @@ const Services = () => {
   const services = [
     {
       icon: faMobile,
-      title: "MOBILE APP DEVELOPMENT",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      title: "WEB DEVELOPMENT",
+      description: "I don't just build websites; I engineer full-stack solutions that drive results. From lightning-fast, secure backends to dynamic, responsive frontends, I deliver seamless user experiences designed for conversion and scale.",
       animation: "fadeInLeft"
     },
     {
       icon: faVideo ,
       title: "VIDEO EDITING",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      description: "I transform raw footage into compelling visual narratives. Whether for marketing, education, or social media, I cut, pace, and refine every project to maximize viewer engagement, emotional impact, and clear communication.",
       animation: "fadeInRight"
     },
     {
       icon: faDesktop,
       title: "DESKTOP APP DEVELOPMENT",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      description: "I create robust, high-performance native applications that streamline complex processes. Focused on security and intuitive UX, I deliver reliable software that enhances internal productivity and data management.",
       animation: "fadeInLeft"
     },
     {
-      icon: faCode,
-      title: "PROGRAMMING LANGUAGES",
-      description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and typesetting industry...",
+      icon: faCube,
+      title: "3D DESIGN AND ANIMATION",
+      description: "I translate concepts into photorealistic 3D models and visualizations. Specializing in product prototypes and presentation assets, I provide the stunning visual clarity needed to secure investment and accelerate market adoption.",
       animation: "fadeInRight"
     }
   ];

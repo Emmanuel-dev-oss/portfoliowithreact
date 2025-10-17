@@ -26,17 +26,17 @@ const Contact = () => {
   };
 
   const socials = [
-    {icon: faPhone, description: '08162807117'},
-    {icon: faEnvelopeSquare, description: 'emmanuelabidoye2021@gmail.com'},
+    {icon: faPhone, description: '09112337655'},
+    {icon: faEnvelopeSquare, description: 'adejolamichtutors2@gmail.com'},
     {icon: faLocation, description: 'House No: 07 Rafsar Town, mirpurkhas, 69000, Sinah Pakistan'}
   ];
 
   const getInTouch = [
-      { icon: faFacebook, delay: '0.2' },
-      { icon: faInstagram, delay: '0.4' },
-      { icon: faLinkedin, delay: '0.6' },
-      { icon: faBehance, delay: '0.5' },
-      { icon: faWhatsapp, delay: '0.3' }
+      { icon: faFacebook, link: 'https://www.facebook.com/micheal.adejola.2025', delay: '0.2' },
+      { icon: faInstagram, link: 'https://www.instagram.com/michealadejola?igsh=cm82MDM5a2c1Ym15', delay: '0.4' },
+      { icon: faLinkedin, link: 'https://www.linkedin.com/in/michael-adejola-650aa5271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', delay: '0.6' },
+      { icon: faBehance, link: 'https://www.behance.net/michaeladejola', delay: '0.5' },
+      { icon: faWhatsapp, link: 'https://wa.me/message/WSIVF4COZL6TD1', delay: '0.3' }
     ];
 
   return (
@@ -49,12 +49,7 @@ const Contact = () => {
              <div className="footer-content">
                 <AnimatedElement className="write-up" animation="fadeInLeft" delay={0.6}>
                   <h3>Drop Me a Message</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur 
-                      adipisicing elit. Magni earum deserunt 
-                      eos tempore fugiat voluptatum iusto repellat 
-                      quo, ad laboriosam asperiores ratione incidunt 
-                      nam distinctio, exercitationem veritatis atque 
-                      provident cumque?
+                  <p>Send me a brief message about your needs, and let's schedule a time to discuss how I can integrate into your workflow and deliver solutions that scale
                   </p>
                 </AnimatedElement>
                 <AnimatedElement className="social-container" animation="fadeInLeft" delay={0.6}>
@@ -119,12 +114,12 @@ const Contact = () => {
 
             <div className="bottom-right">
                 <AnimatedElement className='copyright' animation="fadeIn" delay={0.6}>
-                    <h5>2025 - emmanuxdev, All rights reserved</h5>
+                    <a href="https://www.linkedin.com/in/emmanuel-abidoye" className='footer-link'><h5>2025 - emmanuxdev, All rights reserved</h5></a>
                 </AnimatedElement>
                 <div className="get-in-touch">
                     {getInTouch.map((reach, index) => (
                       <AnimatedElement animation='fadeIn' key={index} className="media" delay={reach.delay}>
-                        <FontAwesomeIcon icon={reach.icon}  size="2x" style={{ color: '#fff'}} />
+                       <a href={reach.link}><FontAwesomeIcon icon={reach.icon}  size="2x" style={{ color: '#fff'}} /></a>
                       </AnimatedElement>
                     ))}
                 </div>
