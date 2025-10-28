@@ -130,10 +130,10 @@ const Contact = () => {
                       ></textarea>
                   </div>
                   <button type="submit" disabled={isSubmitting} className="submit-btn">{isSubmitting ? 'Sending...' : 'Send Message'}</button>
-                 {submitMessage && (
-                    <div className={`message ${submitMessage.includes('Thank you') ? 'success' : 'error'}`}>
+                  {submitMessage && (
+                    <post className={`message ${submitMessage.includes('Thank you') ? 'success' : 'error'}`}>
                       {submitMessage}
-                    </div>
+                    </p>
                   )}
                 </form>
             </AnimatedElements>
